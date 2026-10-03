@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Urban Spice | Authentic Flavors</title>
+  <meta name="description" content="Urban Spice Restaurant - Authentic flavors with a modern dining experience.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <nav class="navbar container">
+
+    <a href="index.html" class="logo">
+      Urban<span>Spice</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation">
+      ☰
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a class="active" href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li>
+        <a href="contact.html" class="nav-btn">Book a Table</a>
+      </li>
+    </ul>
+
+  </nav>
+</header>
+
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="hero-content container">
+
+    <div class="hero-text">
+
+      <span class="eyebrow">WELCOME TO URBAN SPICE</span>
+
+      <h1>
+        Authentic Flavors.
+        <span>Modern Experience.</span>
+      </h1>
+
+      <p>
+        Discover delicious food prepared with fresh ingredients,
+        traditional recipes and a modern touch.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="menu.html" class="btn btn-primary">
+          Explore Menu
+        </a>
+
+        <a href="contact.html" class="btn btn-outline">
+          Book a Table
+        </a>
+      </div>
+
+      <div class="hero-stats">
+        <div>
+          <strong>4.9★</strong>
+          <span>Customer Rating</span>
+        </div>
+
+        <div>
+          <strong>25+</strong>
+          <span>Special Dishes</span>
+        </div>
+
+        <div>
+          <strong>10+</strong>
+          <span>Years Experience</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="hero-image">
+
+      <img
+        src="Restaurent.jpg"height="300
+        alt="Delicious restaurant food"
+        loading="eager"
+      >
+
+      <div class="floating-card">
+        <span>🔥</span>
+        <div>
+          <strong>Chef's Special</strong>
+          <small>Butter Chicken</small>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- FEATURES -->
+
+<section class="features section">
+
+  <div class="container">
+
+    <div class="section-heading">
+      <span class="eyebrow">WHY CHOOSE US</span>
+      <h2>A Taste You'll Remember</h2>
+      <p>
+        We combine authentic recipes with premium ingredients
+        to create an unforgettable dining experience.
+      </p>
+    </div>
+
+    <div class="feature-grid">
+
+      <article class="feature-card">
+        <div class="feature-icon">🥘</div>
+        <h3>Fresh Ingredients</h3>
+        <p>
+          We use fresh and carefully selected ingredients
+          every day.
+        </p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon">👨‍🍳</div>
+        <h3>Expert Chefs</h3>
+        <p>
+          Our experienced chefs create every dish with
+          passion and precision.
+        </p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon">✨</div>
+        <h3>Premium Experience</h3>
+        <p>
+          Enjoy delicious food in a comfortable and
+          modern environment.
+        </p>
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- POPULAR DISHES -->
+
+<section class="popular section">
+
+  <div class="container">
+
+    <div class="section-heading heading-flex">
+
+      <div>
+        <span class="eyebrow">OUR SPECIALS</span>
+        <h2>Popular Dishes</h2>
+      </div>
+
+      <a href="menu.html" class="text-link">
+        View Full Menu →
+      </a>
+
+    </div>
+
+
+    <div class="food-grid">
+
+      <article class="food-card">
+
+        <div class="food-image">
+          <img src="butter.jpg"
+               alt="Butter Chicken"
+               loading="lazy">
+
+          <span class="food-tag">Popular</span>
+        </div>
+
+        <div class="food-info">
+
+          <div class="food-title">
+            <h3>Butter Chicken</h3>
+            <strong>₹299</strong>
+          </div>
+
+          <p>
+            Creamy tomato curry with tender chicken
+            and aromatic spices.
+          </p>
+
+          <button
+            class="add-cart"
+            data-item="Butter Chicken">
+            + Add to Order
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <article class="food-card">
+
+        <div class="food-image">
+
+          <img src="paneertikka.jpg"
+               alt="Paneer Tikka"
+               loading="lazy">
+
+          <span class="food-tag">Chef's Pick</span>
+
+        </div>
+
+        <div class="food-info">
+
+          <div class="food-title">
+            <h3>Paneer Tikka</h3>
+            <strong>₹249</strong>
+          </div>
+
+          <p>
+            Grilled cottage cheese marinated with
+            Indian spices.
+          </p>
+
+          <button
+            class="add-cart"
+            data-item="Paneer Tikka">
+            + Add to Order
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <article class="food-card">
+
+        <div class="food-image">
+
+          <img src="biryani.jpg"
+               alt="Biryani"
+               loading="lazy">
+
+          <span class="food-tag">Special</span>
+
+        </div>
+
+        <div class="food-info">
+
+          <div class="food-title">
+            <h3>Chicken Biryani</h3>
+            <strong>₹279</strong>
+          </div>
+
+          <p>
+            Fragrant basmati rice layered with
+            perfectly spiced chicken.
+          </p>
+
+          <button
+            class="add-cart"
+            data-item="Chicken Biryani">
+            + Add to Order
+          </button>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CTA -->
+
+<section class="booking-cta">
+
+  <div class="container cta-content">
+
+    <div>
+      <span class="eyebrow">MAKE A RESERVATION</span>
+
+      <h2>Ready for a delicious experience?</h2>
+
+      <p>
+        Reserve your table today and enjoy an unforgettable
+        dining experience.
+      </p>
+    </div>
+
+    <a href="contact.html" class="btn btn-light">
+      Reserve Now →
+    </a>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+  <div class="container footer-grid">
+
+    <div>
+      <a href="index.html" class="logo">
+        Urban<span>Spice</span>
+      </a>
+
+      <p>
+        Authentic flavors, modern experience.
+        Your favorite restaurant in town.
+      </p>
+    </div>
+
+    <div>
+      <h3>Quick Links</h3>
+
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </div>
+
+    <div>
+      <h3>Opening Hours</h3>
+
+      <p>Monday - Friday</p>
+      <strong>11:00 AM - 11:00 PM</strong>
+
+      <p>Saturday - Sunday</p>
+      <strong>10:00 AM - 12:00 AM</strong>
+    </div>
+
+    <div>
+      <h3>Contact</h3>
+
+      <p>📍 Ghaziabad, Uttar Pradesh</p>
+      <p>📞 +91 98765 43210</p>
+      <p>✉️ hello@urbanspice.com</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Urban Spice. All Rights Reserved.
+  </div>
+
+</footer>
+
+
+<div class="toast" id="toast">
+  <span>✓</span>
+  <p id="toastMessage">Added successfully!</p>
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
