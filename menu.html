@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Menu | Urban Spice</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+  <nav class="navbar container">
+
+    <a href="index.html" class="logo">
+      Urban<span>Spice</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">
+      ☰
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+
+      <li>
+        <a href="index.html">Home</a>
+      </li>
+
+      <li>
+        <a class="active" href="menu.html">Menu</a>
+      </li>
+
+      <li>
+        <a href="about.html">About</a>
+      </li>
+
+      <li>
+        <a href="contact.html">Contact</a>
+      </li>
+
+      <li>
+        <a href="contact.html" class="nav-btn">
+          Book a Table
+        </a>
+      </li>
+
+    </ul>
+
+  </nav>
+
+</header>
+
+
+<main>
+
+<section class="page-hero">
+
+  <div class="container">
+
+    <span class="eyebrow">EXPLORE OUR MENU</span>
+
+    <h1>Delicious Food For Everyone</h1>
+
+    <p>
+      From traditional Indian favorites to modern creations,
+      discover something you'll love.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section class="menu-section section">
+
+  <div class="container">
+
+    <div class="menu-filter">
+
+      <button class="filter-btn active" data-filter="all">
+        All
+      </button>
+
+      <button class="filter-btn" data-filter="starter">
+        Starters
+      </button>
+
+      <button class="filter-btn" data-filter="main">
+        Main Course
+      </button>
+
+      <button class="filter-btn" data-filter="dessert">
+        Desserts
+      </button>
+
+      <button class="filter-btn" data-filter="drink">
+        Drinks
+      </button>
+
+    </div>
+
+
+    <div class="menu-grid">
+
+
+      <article class="menu-item" data-category="starter">
+
+        <img
+          src="paneertikka.jpg"
+          alt="Paneer Tikka"
+          loading="lazy">
+
+        <div>
+
+          <div class="menu-item-title">
+
+            <h3>Paneer Tikka</h3>
+
+            <strong>₹249</strong>
+
+          </div>
+
+          <p>
+            Grilled paneer with herbs and Indian spices.
+          </p>
+
+          <button
+            class="add-cart"
+            data-item="Paneer Tikka">
+            Add to Order
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <article class="menu-item" data-category="main">
+
+        <img
+          src="butter.jpg"
+          alt="Butter Chicken"
+          loading="lazy">
+
+        <div>
+
+          <div class="menu-item-title">
+
+            <h3>Butter Chicken</h3>
+
+            <strong>₹299</strong>
+
+          </div>
+
+          <p>
+            Creamy tomato gravy with tender chicken.
+          </p>
+
+          <button
+            class="add-cart"
+            data-item="Butter Chicken">
+            Add to Order
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <article class="menu-item" data-category="main">
+
+        <img
+          src="chiken biryani.jpg"
+          alt="Chicken Biryani"
+          loading="lazy">
+
+        <div>
+
+          <div class="menu-item-title">
+
+            <h3>Chicken Biryani</h3>
+
+            <strong>₹279</strong>
+
+          </div>
+
+          <p>
+            Aromatic basmati rice with spicy chicken.
+          </p>
+
+          <button
+            class="add-cart"
+            data-item="Chicken Biryani">
+            Add to Order
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <article class="menu-item" data-category="starter">
+
+        <img
+          src="spring.jpg"
+          alt="Spring Rolls"
+          loading="lazy">
+
+        <div>
+
+          <div class="menu-item-title">
+
+            <h3>Spring Rolls</h3>
+
+            <strong>₹179</strong>
+
+          </div>
+
+          <p>
+            Crispy rolls stuffed with fresh vegetables.
+          </p>
+
+          <button
+            class="add-cart"
+            data-item="Spring Rolls">
+            Add to Order
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <article class="menu-item" data-category="dessert">
+
+        <img
+          src="Gulabjammun.jpg"
+          alt="Gulab Jamun"
+          loading="lazy">
+
+        <div>
+
+          <div class="menu-item-title">
+
+            <h3>Gulab Jamun</h3>
+
+            <strong>₹129</strong>
+
+          </div>
+
+          <p>
+            Soft milk dumplings served with sugar syrup.
+          </p>
+
+          <button
+            class="add-cart"
+            data-item="Gulab Jamun">
+            Add to Order
+          </button>
+
+        </div>
+
+      </article>
+
+
+      <article class="menu-item" data-category="drink">
+
+        <img
+          src="mango Lassi.jpg"
+          alt="Mango Lassi"
+          loading="lazy">
+
+        <div>
+
+          <div class="menu-item-title">
+
+            <h3>Mango Lassi</h3>
+
+            <strong>₹119</strong>
+
+          </div>
+
+          <p>
+            Refreshing creamy mango yogurt drink.
+          </p>
+
+          <button
+            class="add-cart"
+            data-item="Mango Lassi">
+            Add to Order
+          </button>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+  <div class="footer-bottom">
+    © 2026 Urban Spice. All Rights Reserved.
+  </div>
+
+</footer>
+
+
+<div class="toast" id="toast">
+
+  <span>✓</span>
+
+  <p id="toastMessage">
+    Added successfully!
+  </p>
+
+</div>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
