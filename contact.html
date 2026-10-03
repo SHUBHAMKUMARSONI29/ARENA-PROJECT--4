@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact & Booking | Urban Spice</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+<nav class="navbar container">
+
+<a href="index.html" class="logo">
+Urban<span>Spice</span>
+</a>
+
+<button class="menu-toggle" id="menuToggle">
+☰
+</button>
+
+<ul class="nav-links" id="navLinks">
+
+<li>
+<a href="index.html">Home</a>
+</li>
+
+<li>
+<a href="menu.html">Menu</a>
+</li>
+
+<li>
+<a href="about.html">About</a>
+</li>
+
+<li>
+<a class="active" href="contact.html">Contact</a>
+</li>
+
+<li>
+<a href="#booking" class="nav-btn">
+Book a Table
+</a>
+</li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+<main>
+
+<section class="page-hero">
+
+<div class="container">
+
+<span class="eyebrow">
+CONTACT US
+</span>
+
+<h1>
+Let's Plan Your Visit
+</h1>
+
+<p>
+Reserve a table or send us a message.
+We'd love to hear from you.
+</p>
+
+</div>
+
+</section>
+
+
+<section class="contact-section section">
+
+<div class="container contact-grid">
+
+
+<div class="contact-info">
+
+<span class="eyebrow">
+GET IN TOUCH
+</span>
+
+<h2>
+We'd Love To Hear From You
+</h2>
+
+<p>
+Have a question, special request or feedback?
+Send us a message.
+</p>
+
+
+<div class="contact-item">
+
+<span>📍</span>
+
+<div>
+
+<strong>Address</strong>
+
+<p>
+Ghaziabad, Uttar Pradesh, India
+</p>
+
+</div>
+
+</div>
+
+
+<div class="contact-item">
+
+<span>📞</span>
+
+<div>
+
+<strong>Phone</strong>
+
+<p>
++91 98765 43210
+</p>
+
+</div>
+
+</div>
+
+
+<div class="contact-item">
+
+<span>✉️</span>
+
+<div>
+
+<strong>Email</strong>
+
+<p>
+hello@urbanspice.com
+</p>
+
+</div>
+
+</div>
+
+
+<div class="contact-item">
+
+<span>🕒</span>
+
+<div>
+
+<strong>Opening Hours</strong>
+
+<p>
+Mon - Sun: 11 AM - 11 PM
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- BOOKING FORM -->
+
+<div class="form-card" id="booking">
+
+<div class="form-heading">
+
+<h2>
+Book Your Table
+</h2>
+
+<p>
+Fill in your details below.
+</p>
+
+</div>
+
+
+<form id="bookingForm" novalidate>
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label for="name">
+Full Name
+</label>
+
+<input
+type="text"
+id="name"
+name="name"
+placeholder="Enter your name"
+>
+
+<small class="error" id="nameError"></small>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="phone">
+Phone Number
+</label>
+
+<input
+type="tel"
+id="phone"
+name="phone"
+placeholder="9876543210"
+>
+
+<small class="error" id="phoneError"></small>
+
+</div>
+
+</div>
+
+
+<div class="form-row">
+
+<div class="form-group">
+
+<label for="date">
+Date
+</label>
+
+<input
+type="date"
+id="date"
+name="date"
+>
+
+<small class="error" id="dateError"></small>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="time">
+Time
+</label>
+
+<select id="time" name="time">
+
+<option value="">
+Select time
+</option>
+
+<option>11:00 AM</option>
+<option>12:00 PM</option>
+<option>1:00 PM</option>
+<option>2:00 PM</option>
+<option>5:00 PM</option>
+<option>6:00 PM</option>
+<option>7:00 PM</option>
+<option>8:00 PM</option>
+<option>9:00 PM</option>
+<option>10:00 PM</option>
+
+</select>
+
+<small class="error" id="timeError"></small>
+
+</div>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="guests">
+Number of Guests
+</label>
+
+<select id="guests" name="guests">
+
+<option value="">
+Select guests
+</option>
+
+<option>1 Guest</option>
+<option>2 Guests</option>
+<option>3 Guests</option>
+<option>4 Guests</option>
+<option>5 Guests</option>
+<option>6 Guests</option>
+<option>7+ Guests</option>
+
+</select>
+
+<small class="error" id="guestsError"></small>
+
+</div>
+
+
+<div class="form-group">
+
+<label for="message">
+Special Request
+</label>
+
+<textarea
+id="message"
+name="message"
+rows="4"
+placeholder="Birthday, anniversary, special seating..."
+></textarea>
+
+</div>
+
+
+<button
+type="submit"
+class="btn btn-primary form-submit">
+
+Confirm Reservation
+
+</button>
+
+
+<p
+class="form-success"
+id="formSuccess">
+</p>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+<div class="footer-bottom">
+
+© 2026 Urban Spice. All Rights Reserved.
+
+</div>
+
+</footer>
+
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
